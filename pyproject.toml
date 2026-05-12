@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "halalterminal"
+version = "0.1.1"
+description = "Official Python SDK for the Halal Terminal API — Shariah stock screening, market data, zakat & purification calculators."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Yassir", email = "yassir@halalterminal.com" }]
+keywords = ["halal", "shariah", "islamic finance", "stock screening", "zakat", "purification", "api"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+dependencies = ["requests>=2.31,<3"]
+
+[project.urls]
+Homepage = "https://halalterminal.com"
+Documentation = "https://api.halalterminal.com/docs"
+Source = "https://github.com/goww7/halalterminal-sdk-python"
+Issues = "https://github.com/goww7/halalterminal-sdk-python/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "responses>=0.25"]
+
+[tool.setuptools.packages.find]
+include = ["halalterminal*"]
