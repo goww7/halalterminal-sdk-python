@@ -427,6 +427,17 @@ ht = Client(api_key="ht_staging_…", base_url="https://staging.api.halaltermina
 
 ---
 
+## Learn more
+
+- [API reference](https://api.halalterminal.com/api-reference)
+- [Sukuk screening guide](https://www.halalterminal.com/research/sukuk-screening)
+- [Shariah-compliant ETFs compared (2026)](https://www.halalterminal.com/research/sharia-etf-comprehensive-analysis)
+- [Is my stock halal? Screener](https://www.halalterminal.com/stocks)
+
+## Part of the Halal Terminal ecosystem
+
+[Website](https://www.halalterminal.com) · [API](https://api.halalterminal.com/api-reference) · [JS SDK](https://github.com/goww7/halalterminal-sdk-js) · [MCP server](https://github.com/goww7/halalterminal-mcp) · [Claude plugin](https://github.com/goww7/halalterminal-claude-skills) · [Discord bot](https://github.com/goww7/halal-discord-bot) · [TradingView indicator](https://github.com/goww7/halal-pine) · [Portfolio tracker](https://github.com/goww7/halal-portfolio-tracker)
+
 ## License
 
 MIT. © Halal Terminal. See [LICENSE](LICENSE).
