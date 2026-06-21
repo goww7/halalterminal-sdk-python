@@ -197,7 +197,7 @@ try:
     result = ht.screen("AAPL")
 except ApiKeyError:
     # 401/403 — key missing, invalid, or deactivated
-    print("Check your API key at halalterminal.com/dashboard")
+    print("Check your API key at api.halalterminal.com/dashboard")
 except QuotaExceededError as e:
     # 429 with code=QUOTA_EXCEEDED — monthly token allowance exhausted
     # e.detail carries the upgrade hint from the API

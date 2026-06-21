@@ -28,7 +28,7 @@ classifiers = [
 dependencies = ["requests>=2.31,<3"]
 
 [project.urls]
-Homepage = "https://halalterminal.com"
+Homepage = "https://www.halalterminal.com"
 Documentation = "https://api.halalterminal.com/docs"
 Source = "https://github.com/goww7/halalterminal-sdk-python"
 Issues = "https://github.com/goww7/halalterminal-sdk-python/issues"
