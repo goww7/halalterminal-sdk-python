@@ -1,5 +1,7 @@
 # halalterminal — Python SDK
 
+![AAPL halal status](https://api.halalterminal.com/api/badge/AAPL.svg) _live badge from the API, embed one for any symbol_
+
 Official Python client for the [Halal Terminal API](https://halalterminal.com) — Shariah stock screening across 5 audited methodologies (AAOIFI, DJIM, FTSE, MSCI, S&P), real-time market data, ETF look-through analysis, zakat & purification calculators.
 
 [![PyPI](https://img.shields.io/pypi/v/halalterminal)](https://pypi.org/project/halalterminal/)
@@ -441,3 +443,9 @@ ht = Client(api_key="ht_staging_…", base_url="https://staging.api.halaltermina
 ## License
 
 MIT. © Halal Terminal. See [LICENSE](LICENSE).
+
+
+---
+
+Part of the [Halal Terminal open ecosystem](https://github.com/goww7/awesome-islamic-finance):
+[API](https://api.halalterminal.com) · [MCP server](https://github.com/goww7/halalterminal-mcp) · [Python SDK](https://github.com/goww7/halalterminal-sdk-python) · [JS SDK](https://github.com/goww7/halalterminal-sdk-js) · [Datasets](https://github.com/goww7/sp500-shariah-compliance) · [Awesome Islamic Finance](https://github.com/goww7/awesome-islamic-finance)
